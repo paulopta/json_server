@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "npx json-server data.json --port 3000 --static"
+    "start": "npx json-server data.json --port $PORT --static ./data.json"
   },
   "dependencies": {
     "cors": "^2.8.6",
